@@ -22,7 +22,7 @@ namespace ConsoleApp1__Luan2
         {
             return Descricao;
         }
-        public void setId(int id) 
+        public void setId(int id)
         {
             if (id > 0)
             {
@@ -39,13 +39,13 @@ namespace ConsoleApp1__Luan2
         }
         public void setDescricao(string descricao)
         {
-            Descricao = descricao; 
+            Descricao = descricao;
         }
         public string getDescricao()
         {
             return Descricao;
         }
     }
-   
-   
+
+
 }
