@@ -22,10 +22,28 @@ namespace ConsoleApp1__Luan2
         {
             return Descricao;
         }
-
+        public void setId(int id) 
+        {
+            if (id > 0)
+            {
+                Id = id;
+            }
+        }
         public decimal getValor()
         {
             return Valor;
+        }
+        public void setValor(decimal valor)
+        {
+            Valor = valor;
+        }
+        public void setDescricao(string descricao)
+        {
+            Descricao = descricao; 
+        }
+        public string getDescricao()
+        {
+            return Descricao;
         }
     }
    
