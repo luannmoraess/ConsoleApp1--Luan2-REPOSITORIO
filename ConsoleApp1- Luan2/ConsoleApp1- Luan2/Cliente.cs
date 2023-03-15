@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1__Luan2
 {
-    internal class Pessoa
+    internal class Cliente
     {
         public int Id;
         public string Nome; 
         public string Telefone;
+        private Endereco Endereco;
 
-        public Pessoa(int id, string nome, string telefone)
+        public Cliente(int id, string nome, string telefone, Endereco endereco)
         {
             Id = id;
             Nome = nome;
             Telefone = telefone;
+            Endereco = endereco;
         }
         public int getId()
         {
@@ -43,6 +45,14 @@ namespace ConsoleApp1__Luan2
         public void setTelefone(string telefone)
         {
             Telefone = telefone;
+        }
+       public void setEndereco(Endereco endereco)
+        {
+            Endereco = endereco;
+        }
+        public Endereco getEndereco()
+        {
+            return Endereco;
         }
     }
    
