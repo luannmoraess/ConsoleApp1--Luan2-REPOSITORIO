@@ -4,4 +4,7 @@ using ConsoleApp1__Luan2;
 Console.WriteLine("Hello, World!");
 
 Produto p1 = new Produto(1, "Mouse sem fio", 59.90M);
-Console.WriteLine(p1.getDescricao()+ " " +p1.getValor() );
+//Console.WriteLine(p1.getDescricao()+ " " +p1.getValor() );
+
+p1.setValor(89.9M);
+Console.WriteLine(p1.getDescricao() + " " + p1.getValor());
